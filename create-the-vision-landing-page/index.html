@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Create The Vision — Memphis roots, Tulsa precision. Professional barbering by TV, The Vision." />
+  <title>Create The Vision | TV — The Vision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Create The Vision home">
+      <span class="brand-mark">TV</span>
+      <span class="brand-copy">
+        <strong>Create<br>The Vision</strong>
+        <small>TV • The Vision</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Open menu</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">Meet TV</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#book">Book</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="button button-gold header-cta" href="#book">Book Appointment</a>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero section">
+      <div class="hero-skyline" aria-hidden="true"></div>
+      <div class="hero-graffiti" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">TV • The Vision</p>
+        <h1>Create<br>The Vision</h1>
+        <p class="hero-tagline">
+          <span>Memphis Roots.</span>
+          <strong>Tulsa Precision.</strong>
+        </p>
+        <p class="hero-lead">Professional barbering built on precision, consistency, creativity, and respect.</p>
+
+        <div class="hero-actions">
+          <a class="button button-gold" href="#book">Book Appointment</a>
+          <a class="button button-outline" href="#work">View My Work</a>
+        </div>
+
+        <ul class="trust-row" aria-label="Business highlights">
+          <li>📍 Tulsa, Oklahoma</li>
+          <li>★ Owner Operated</li>
+          <li>🛡 Professional Grooming</li>
+        </ul>
+      </div>
+
+      <div class="hero-portrait placeholder-card">
+        <div class="placeholder-icon">TV</div>
+        <p>Owner portrait placeholder</p>
+        <small>Replace with TV’s approved professional image</small>
+      </div>
+    </section>
+
+    <section id="about" class="about section panel-grid">
+      <div class="media-placeholder tall">
+        <span>Action Photo</span>
+        <small>TV cutting or consulting</small>
+      </div>
+
+      <div class="content-panel">
+        <p class="eyebrow">Meet TV</p>
+        <h2>The barber behind the vision.</h2>
+        <p>Around Memphis, many people know me as <strong>TV</strong>—short for <strong>The Vision</strong>.</p>
+        <p>After building my craft in Memphis, I chose Tulsa as the next chapter of my journey. I’m here to earn trust one client at a time through professionalism, precision, creativity, and consistency.</p>
+        <p>Whether you’re coming for a weekly touch-up or a complete transformation, my goal is simple:</p>
+        <p class="highlight">Help you create your vision.</p>
+        <a class="button button-gold" href="#book">Book With TV</a>
+      </div>
+
+      <div class="city-story">
+        <div class="city-label">Memphis → Tulsa</div>
+        <div class="city-art" aria-hidden="true"></div>
+        <p>Built in Memphis. Growing in Tulsa.</p>
+      </div>
+    </section>
+
+    <section id="services" class="services section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Services</p>
+          <h2>Choose your level of precision.</h2>
+        </div>
+        <p>Simple options. Clear expectations. No confusing menu.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Weekly Touch-Up</h3>
+          <p>Stay sharp between full haircuts.</p>
+          <ul>
+            <li>Line-up</li>
+            <li>Neck cleanup</li>
+            <li>Blend refresh</li>
+            <li>Light detailing</li>
+          </ul>
+          <div class="service-meta"><span>20–30 min</span><span>$—</span></div>
+          <a href="#book" class="button button-small button-gold" data-service="Weekly Touch-Up">Book Touch-Up</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">✂</div>
+          <h3>Standard Haircut</h3>
+          <p>Professional everyday grooming tailored to your style.</p>
+          <ul>
+            <li>Consultation</li>
+            <li>Full haircut</li>
+            <li>Line-up</li>
+            <li>Finishing detail</li>
+          </ul>
+          <div class="service-meta"><span>40–50 min</span><span>$—</span></div>
+          <a href="#book" class="button button-small button-gold" data-service="Standard Haircut">Book Haircut</a>
+        </article>
+
+        <article class="service-card featured-service">
+          <div class="service-badge">Signature</div>
+          <div class="service-icon">♛</div>
+          <h3>The Works™</h3>
+          <p>The complete executive grooming experience.</p>
+          <ul>
+            <li>Full haircut</li>
+            <li>Beard trim or shaping</li>
+            <li>Facial grooming</li>
+            <li>Precision finish</li>
+          </ul>
+          <div class="service-meta"><span>60–90 min</span><span>$—</span></div>
+          <a href="#book" class="button button-small button-gold" data-service="The Works">Book The Works™</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">↻</div>
+          <h3>Haircut Correction</h3>
+          <p>For unfinished, uneven, home-cut, or unsatisfactory haircuts needing professional reshaping.</p>
+          <ul>
+            <li>Correction assessment</li>
+            <li>Balance and blending</li>
+            <li>Line-up repair</li>
+            <li>Expectation review</li>
+          </ul>
+          <div class="service-meta"><span>Consult first</span><span>$—</span></div>
+          <a href="#book" class="button button-small button-gold" data-service="Haircut Correction">Book Consultation</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="work section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Featured Transformations</p>
+          <h2>The Vision Files™</h2>
+        </div>
+        <p>Three proof-driven case studies will be added after approved images are uploaded.</p>
+      </div>
+
+      <div class="vision-grid">
+        <article class="vision-card">
+          <div class="vision-number">Vision File 001</div>
+          <h3>Haircut Correction</h3>
+          <div class="before-after">
+            <div class="media-placeholder"><span>Before</span></div>
+            <div class="media-placeholder"><span>After</span></div>
+          </div>
+          <p><strong>Challenge:</strong> Uneven or unfinished haircut requiring professional correction.</p>
+          <p><strong>Result:</strong> Balanced shape, cleaner blending, and restored confidence.</p>
+        </article>
+
+        <article class="vision-card">
+          <div class="vision-number">Vision File 002</div>
+          <h3>Edge-Up Correction</h3>
+          <div class="before-after">
+            <div class="media-placeholder"><span>Before</span></div>
+            <div class="media-placeholder"><span>After</span></div>
+          </div>
+          <p><strong>Challenge:</strong> Grown-out or uneven line-up needing definition.</p>
+          <p><strong>Result:</strong> Crisp edges and a polished, refreshed appearance.</p>
+        </article>
+
+        <article class="vision-card">
+          <div class="vision-number">Vision File 003</div>
+          <h3>Full Detailed Cut</h3>
+          <div class="before-after">
+            <div class="media-placeholder"><span>Before</span></div>
+            <div class="media-placeholder"><span>After</span></div>
+          </div>
+          <p><strong>Challenge:</strong> Full grooming transformation.</p>
+          <p><strong>Result:</strong> Haircut, detail work, and a clean executive finish.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="why section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Why Choose TV</p>
+          <h2>Professionalism you can feel.</h2>
+        </div>
+      </div>
+
+      <div class="why-grid">
+        <article><span>◎</span><h3>Precision</h3><p>Every detail matters.</p></article>
+        <article><span>♙</span><h3>Professional</h3><p>Respect for your time and appointment.</p></article>
+        <article><span>★</span><h3>Consistent</h3><p>Dependable quality every visit.</p></article>
+        <article><span>◉</span><h3>Personal</h3><p>Every haircut starts with your vision.</p></article>
+      </div>
+    </section>
+
+    <section id="reviews" class="reviews section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Client Reviews</p>
+          <h2>Trust is earned in the chair.</h2>
+        </div>
+      </div>
+
+      <div class="review-grid">
+        <blockquote>
+          <div class="stars">★★★★★</div>
+          “TV is professional, precise, and easy to communicate with.”
+          <cite>— Review placeholder</cite>
+        </blockquote>
+        <blockquote>
+          <div class="stars">★★★★★</div>
+          “My line-up came out clean and the experience was organized.”
+          <cite>— Review placeholder</cite>
+        </blockquote>
+        <blockquote>
+          <div class="stars">★★★★★</div>
+          “A fresh Memphis style with real Tulsa professionalism.”
+          <cite>— Review placeholder</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="book" class="booking section">
+      <div class="booking-copy">
+        <p class="eyebrow">Ready to create your vision?</p>
+        <h2>Book your appointment with TV.</h2>
+        <p>Choose a service, leave your contact information, and TV can confirm the appointment directly.</p>
+        <ul class="booking-points">
+          <li>Fast</li>
+          <li>Easy</li>
+          <li>Mobile-friendly</li>
+        </ul>
+      </div>
+
+      <form id="booking-form" class="booking-form">
+        <label>
+          Your name
+          <input type="text" name="name" required autocomplete="name" />
+        </label>
+
+        <label>
+          Phone number
+          <input type="tel" name="phone" required autocomplete="tel" />
+        </label>
+
+        <label>
+          Service
+          <select name="service" required>
+            <option value="">Choose a service</option>
+            <option>Weekly Touch-Up</option>
+            <option>Standard Haircut</option>
+            <option>The Works</option>
+            <option>Haircut Correction</option>
+          </select>
+        </label>
+
+        <label>
+          Preferred day or time
+          <input type="text" name="preferred_time" placeholder="Example: Friday after 3 PM" />
+        </label>
+
+        <label>
+          Notes
+          <textarea name="notes" rows="3" placeholder="Optional details or haircut goals"></textarea>
+        </label>
+
+        <button class="button button-gold" type="submit">Request Appointment</button>
+        <p class="form-note">Demo form only. Connect this to TV’s booking method before launch.</p>
+        <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Connect with TV.</h2>
+      </div>
+
+      <div class="contact-grid">
+        <a href="tel:+19185550123"><span>☎</span><strong>(918) 555-0123</strong><small>Call or text</small></a>
+        <a href="mailto:info@createthevision.com"><span>✉</span><strong>info@createthevision.com</strong><small>Email TV</small></a>
+        <div><span>⌖</span><strong>Tulsa, Oklahoma</strong><small>Exact location added before launch</small></div>
+        <div><span>◷</span><strong>By Appointment</strong><small>Hours added before launch</small></div>
+      </div>
+
+      <div class="social-row" aria-label="Social media links">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="TikTok">TT</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="mobile-action-bar" aria-label="Quick actions">
+    <a href="#book">Book</a>
+    <a href="tel:+19185550123">Call</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="brand footer-brand">
+      <span class="brand-mark">TV</span>
+      <span class="brand-copy">
+        <strong>Create The Vision™</strong>
+        <small>TV • The Vision</small>
+      </span>
+    </div>
+    <p>© <span id="year"></span> Create The Vision™. All rights reserved.</p>
+    <p class="footer-line">Confidence begins here.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
